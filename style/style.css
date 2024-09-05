@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --cor_primaria: #FF9B9B;
+    --cor_secundaria: #FFEBD4;
+
+    --fonte_primaria: "Krona One", sans-serif;
+    --fonte_secundaria: "Roboto", sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: auto;
+}
+
+.cabecalho{
+    background: var(--cor_primaria);
+    padding: 30px;
+}
+
+.menu{
+    display: flex;
+    gap: 60px;
+    margin-left: 10rem;
+}
+
+.link_menu{
+    font-family: var(--fonte_primaria);
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--cor_secundaria);
+}
+
+.conteudo{
+    padding: 2% 8%;
+    background: var(--cor_secundaria);
+}
+
+.conteudo_home{
+    display: flex;
+    align-items: center;
+}
+
+.titulo{
+    font-family: var(--fonte_primaria);
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--cor_primaria);
+}
+
+.conteudo_home_imagem{
+    width: 50%;
+}
+
+.conteudo_carta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+    margin-top: 60px;
+}
+
+.titulo_link{
+    font-family: var(--fonte_primaria);
+    font-weight: 700;
+    font-size: 47px;
+    color: var(--cor_primaria);
+    text-decoration: none;
+}
+
+.texto{
+    font-family: var(--fonte_secundaria);
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--cor_primaria);
+    line-height: 30px;
+    word-spacing: 4px;
+}
+
+.conteudo_fotos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    gap: 45px;
+}
+
+.container_imagem{
+    display: flex;
+    flex-wrap: wrap; /* Permite as imagens quebrarem em múltiplas linhas */
+    justify-content: space-between; /* Distribui uniformemente as colunas */
+    gap: 35px;
+}
+
+.imagem_foto{
+    width: 30%;
+    margin-bottom: 50px;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 30px;
+    background: var(--cor_primaria);
+    color: var(--cor_secundaria);
+}
+
+.texto_rodape{
+    font-family: var(--fonte_secundaria);
+    font-weight: 400;
+    font-size: 20px;
+}
