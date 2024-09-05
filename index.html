@@ -3,24 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="shortcut icon" href="./assets/love_heart_dessert_cake_food_sweets_cupcake_valentine_icon_262164.ico" type="image/x-icon">
     <title>Landing Page</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="">Home</a>
-            <a href="">Carta</a>
-            <a href="">Nossas Fotos</a>
+    <header class="cabecalho">
+        <nav class="menu">
+            <a href="#home" class="link_menu">Home</a>
+            <a href="#carta" class="link_menu">Carta</a>
+            <a href="#fotos" class="link_menu">Nossas Fotos</a>
         </nav>
     </header>
-    <main>
-        <section></section>
-        <section></section>
-        <section></section>
+    <main class="conteudo" id="home">
+        <section class="conteudo_home">
+            <h1 class="titulo">
+                Essa página é um presente para você: Feliz Aniversário!
+            </h1>
+            <img src="./assets/undraw_birthday_girl_blue.svg" alt="birthday girl" class="conteudo_home_imagem">
+        </section>
+        <section class="conteudo_carta" id="carta">
+            <h1><a href="#" class="titulo_link">Uma carta para você</a></h1>
+            <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nemo doloribus ab obcaecati ut dolor id voluptates, necessitatibus amet tempora dignissimos deleniti facilis illo non, excepturi quisquam pariatur quibusdam a. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore qui vel consequuntur explicabo optio provident obcaecati, eos corrupti officia earum enim quos! Cum porro deleniti libero reiciendis saepe illum nulla?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente iure aliquam consectetur? Harum debitis similique nesciunt quia cumque ex porro iste. Sint dolorem distinctio dolorum ratione adipisci. Laudantium, qui recusandae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum laboriosam perspiciatis facere officia! Rem quae magnam reiciendis incidunt, doloribus voluptas voluptatem aliquid aut quam, ipsum fugiat tempora cum mollitia distinctio.</p>
+        </section>
+        <section class="conteudo_fotos" id="fotos">
+            <h1><a href="#" class="titulo_link">Nossas fotos</a></h1>
+            <div class="container_imagem">
+                <img src="./assets/undraw_coffee_with_friends.svg" alt="coffee with friends" class="imagem_foto">
+                <img src="./assets/undraw_escaping_my.svg" alt="escaping" class="imagem_foto">
+                <img src="./assets/undraw_friends.svg" alt="friends" class="imagem_foto">
+                <img src="./assets/undraw_podcast_re.svg" alt="podcast" class="imagem_foto">
+                <img src="./assets/undraw_family.svg" alt="family" class="imagem_foto">
+                <img src="./assets/undraw_motherhood.svg" alt="motherhood" class="imagem_foto">
+            </div>
+        </section>
     </main>
-    <footer>
-        <p>Criado em Setembro de 2024</p>
-        <p>Desenvolvido por Cainã Portilho</p>
+    <footer class="rodape">
+        <p class="texto_rodape">Criado em Setembro de 2024</p>
+        <p class="texto_rodape">Desenvolvido por Cainã Portilho</p>
     </footer>
 </body>
 </html>
