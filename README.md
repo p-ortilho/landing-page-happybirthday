@@ -7,3 +7,5 @@ Este projeto é uma Landing Page de Feliz Aniversário, desenvolvida inteirament
 - Organização e estruturação clara do HTML, focando em boas práticas e semântica.
 - Uso criativo de CSS para estilizar elementos e criar uma aparência visual atrativa e harmoniosa.
 - Este projeto me permitiu aprofundar meus conhecimentos sobre o desenvolvimento de páginas web simples, porém visualmente agradáveis.
+
+![image_page.png](image_page.png)
