@@ -117,3 +117,34 @@ body{
     font-weight: 400;
     font-size: 20px;
 }
+
+
+@media (max-width: 790px){
+    .menu{
+        margin-left: 0px;
+    }
+    .link_menu{
+        font-size: 15px;
+    }
+    .titulo{
+        font-size: 35px;
+    }
+    .titulo_link{
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 580px){
+    .conteudo_home{
+        flex-direction: column;
+    }
+    .titulo{
+        font-size: 22px;
+    }
+    .titulo_link{
+        font-size: 25px;
+    }
+    .texto_rodape{
+        font-size: 15px;
+    }
+}
