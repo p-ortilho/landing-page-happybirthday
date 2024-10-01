@@ -2,8 +2,6 @@
 
 Este projeto é uma Landing Page de Feliz Aniversário, desenvolvida inteiramente com HTML e CSS. O objetivo principal foi aprimorar minhas habilidades em design de páginas, estruturação semântica do HTML e estilização avançada com CSS.
 
-#### Acesse o site: https://p-ortilho.github.io/landing-page-happybirthday/
-
 ## O que explorei neste projeto:
 - Melhoria no design responsivo para proporcionar uma boa experiência em diferentes dispositivos.
 - Organização e estruturação clara do HTML, focando em boas práticas e semântica.
